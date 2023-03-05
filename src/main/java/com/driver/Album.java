@@ -21,6 +21,7 @@ public class Album {
     }
 
     public void setTitle(String title) {
+
         this.title = title;
     }
 
@@ -28,7 +29,8 @@ public class Album {
         return releaseDate;
     }
 
-    public void setReleaseDate(Date releaseDate) {
+    public void setReleaseDate(Date releaseDate)
+    {
         this.releaseDate = releaseDate;
     }
 }
